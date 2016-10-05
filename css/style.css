@@ -24,27 +24,19 @@
 	animation: 20s linear 0s normal none infinite animate;
 }
 
-.cssIntro {
-    padding-top: 50px;
-    padding-bottom: 60px;
-}
-
-.cssPwidth {
+.cssSection .cssPwidth {
     width: 65%;
     margin: auto;
-}
-
-.cssIntro .cssPwidth {
-    width: 65%;
-    margin: auto;
-}
-
-.cssIntro h4 {
-    line-height: 24px;
 }
 
 .cssSection {
     padding: 45px 0 30px;
+}
+
+.cssSection h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
 }
 
 .cssSection .row {
@@ -62,6 +54,8 @@
 
 .cssInformation {
     font-size: 18px;
+    font-family: 'Montserrat';
+    line-height: 28px;
 }
 
 .img-center {
@@ -111,12 +105,13 @@
     font-size: 25px!important;
     color: black;
     margin:0px;
-    padding: 7px;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
 }
 .ribbon h2 {
-    font-size: 20px!important;
+    font-size: 16px!important;
     margin: auto;
-    padding-top: 6px;
+    padding-top: 7px;
 }
 .ribbon:before, .ribbon:after {
     content: '';
@@ -175,7 +170,7 @@ hr.faded {
 }
 
 .col-sm-6.cssLeft {
-    margin-left: -150px;
+    margin-left: -100px;
 }
 
 /** Back to the Top **/
