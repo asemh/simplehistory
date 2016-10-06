@@ -142,10 +142,10 @@ html,body
     background: lightgrey;
 }
 .ribbon h1 {
-    font-size: 25px!important;
+    font-size: 20px!important;
     color: black;
     margin:0px;
-    padding: 5px;
+    padding: 8px;
     font-family: 'Montserrat', sans-serif;
 }
 .ribbon h2 {
@@ -271,6 +271,25 @@ hr.faded {
    .cssSection .row {
       flex-direction: column;
     }
+}
+
+@media only screen and (max-width: 993px) {
+    
+    li.cssInformation {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    .ribbon {
+        width: 210px;
+        height: 40px;
+        margin-top: 30px;
+    }
+    
+    ul {
+        width: 110%;
+    }
+    
 }
 
 /*
