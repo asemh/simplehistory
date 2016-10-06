@@ -39,6 +39,13 @@
     font-size: 35px;
 }
 
+.cssSection h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
 .cssSection .row {
     display: flex;
     justify-content: center;
@@ -56,6 +63,12 @@
     font-size: 18px;
     font-family: 'Montserrat';
     line-height: 28px;
+}
+
+.cssBlurb {
+    font-size: 14px;
+    font-family: 'Montserrat';
+    line-height: 15px;
 }
 
 .img-center {
