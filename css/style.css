@@ -196,7 +196,16 @@ html,body
 
 ul {
     list-style-type: none;
-    line-height: 35px;
+}
+
+hr.faded2 {
+  border: 0; 
+  height: 1px;
+  width: 60%;
+  background-image: -webkit-linear-gradient(left, #2c3e50, #fff, #2c3e50);
+  background-image: -moz-linear-gradient(left, #2c3e50, #fff, #2c3e50);
+  background-image: -ms-linear-gradient(left, #2c3e50, #fff, #2c3e50);
+  background-image: -o-linear-gradient(left, #2c3e50, #fff, #2c3e50); 
 }
 
 hr.faded { 
