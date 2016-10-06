@@ -10,9 +10,9 @@ html,body
 */
 
 .cssHeader {
-    background: grey;
-    padding-top: 140px;
-    padding-bottom: 140px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: auto;
 }
 
 .cssHeader h1 {
@@ -24,10 +24,19 @@ html,body
     text-align: center;
 }
 
+.cssCentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+}
+
 .cssTemplarHead{
      font-family: 'Metamorphous';
      color: #FFF;
      background: #962A1F url(../img/templar/bg.svg) repeat 0 0;
+     height: 100vh;
     -webkit-animation: 20s linear 0s normal none infinite animate;
 	-moz-animation: 20s linear 0s normal none infinite animate;
 	-ms-animation: 20s linear 0s normal none infinite animate;
@@ -35,13 +44,15 @@ html,body
 	animation: 20s linear 0s normal none infinite animate;
 }
 
-.cssSection .cssPwidth {
+/*
+.cssTemplarHead .cssPwidth {
     width: 75%;
     margin: auto;
 }
+*/
 
 .cssSection {
-    padding: 45px 0 30px;
+    padding: 30px 0 30px;
 }
 
 .cssSection h2 {
