@@ -17,7 +17,11 @@ html,body
 
 .cssHeader h1 {
     font-size: 80px;
+}
 
+.cssSubheader {
+    font-family: 'Montserrat';
+    line-height: 35px;
 }
 
 .cssCenter {
