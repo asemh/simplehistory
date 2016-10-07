@@ -49,13 +49,6 @@ html,body
 	animation: 20s linear 0s normal none infinite animate;
 }
 
-/*
-.cssTemplarHead .cssPwidth {
-    width: 75%;
-    margin: auto;
-}
-*/
-
 .cssSection {
     padding: 30px 0 30px;
 }
@@ -90,6 +83,18 @@ html,body
     font-size: 18px;
     font-family: 'Montserrat';
     line-height: 28px;
+}
+
+i.cssInformation {
+    color: aquamarine;
+}
+
+.fa {
+    color: #cc3e36;
+}
+
+.glyphicon {
+    color: #cc3e36;
 }
 
 .cssBlurb {
@@ -210,8 +215,10 @@ hr.faded2 {
 
 hr.faded { 
   border: 0; 
-  height: 1px;
-  width: 60%;
+  height: 2px;
+  width: 45%;
+  margin-top: 45px;
+  margin-bottom: -5px;
   background-image: -webkit-linear-gradient(left, #f0f0f0, lightgrey, #f0f0f0);
   background-image: -moz-linear-gradient(left, #f0f0f0, lightgrey, #f0f0f0);
   background-image: -ms-linear-gradient(left, #f0f0f0, lightgrey, #f0f0f0);
