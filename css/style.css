@@ -50,7 +50,7 @@ html,body
 }
 
 .cssSection {
-    padding: 30px 0 30px;
+    padding: 40px 0 40px;
     border: 0 !important;
     margin-top: -2px;
 }
@@ -146,7 +146,7 @@ i.cssInformation {
     margin-bottom: 30px;
     text-align: center;
     font-size: 15px!important;
-    background: lightgrey;
+    background: #fff;
 }
 .ribbon h1 {
     font-size: 20px!important;
@@ -159,6 +159,7 @@ i.cssInformation {
     font-size: 16px!important;
     margin: auto;
     padding-top: 7px;
+    color: black;
 }
 .ribbon:before, .ribbon:after {
     content: '';
