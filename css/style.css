@@ -50,7 +50,7 @@ html,body
 }
 
 .cssSection {
-    padding: 40px 0 40px;
+    padding: 30px 0 30px;
     border: 0 !important;
     margin-top: -2px;
 }
@@ -100,9 +100,9 @@ i.cssInformation {
 }
 
 .cssBlurb {
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Montserrat';
-    line-height: 15px;
+    line-height: 24px;
 }
 
 .img-center {
@@ -208,12 +208,14 @@ ul {
 
 hr.faded2 {
   border: 0; 
-  height: 1px;
-  width: 60%;
-  background-image: -webkit-linear-gradient(left, #2c3e50, #fff, #2c3e50);
-  background-image: -moz-linear-gradient(left, #2c3e50, #fff, #2c3e50);
-  background-image: -ms-linear-gradient(left, #2c3e50, #fff, #2c3e50);
-  background-image: -o-linear-gradient(left, #2c3e50, #fff, #2c3e50); 
+  height: 2px;
+  width: 45%;
+  margin-top: 45px;
+  margin-bottom: -5px;
+  background-image: -webkit-linear-gradient(left, #bababa, #bababa, #bababa);
+  background-image: -moz-linear-gradient(left, #bababa, #bababa, #bababa);
+  background-image: -ms-linear-gradient(left, #bababa, #bababa, #bababa);
+  background-image: -o-linear-gradient(left, #bababa, #bababa, #bababa); 
 }
 
 hr.faded { 
