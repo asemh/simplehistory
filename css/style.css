@@ -91,6 +91,22 @@ i.cssInformation {
     color: aquamarine;
 }
 
+.cssGrad1 {
+    background: #2b3758;
+    background: -webkit-linear-gradient(#2b3758, #1f2944);
+    background: -o-linear-gradient(#2b3758, #1f2944);
+    background: -moz-linear-gradient(#2b3758, #1f2944);
+    background: linear-gradient(#2b3758, #1f2944);
+}
+
+.cssGrad2 {
+    background: #1f2944;
+    background: -webkit-linear-gradient(#1f2944, #151d32);
+    background: -o-linear-gradient(#1f2944, #151d32);
+    background: -moz-linear-gradient(#1f2944, #151d32);
+    background: linear-gradient(#1f2944, #151d32); 
+}
+
 .fa {
     color: #cc3e36;
 }
@@ -108,6 +124,7 @@ i.cssInformation {
 .img-center {
     margin: auto;
 }
+
 
 /** Header Animations **/
 
