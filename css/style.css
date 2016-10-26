@@ -107,6 +107,16 @@ i.cssInformation {
     background: linear-gradient(#1f2944, #151d32); 
 }
 
+.cssGrow:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
 .fa {
     color: #cc3e36;
 }
