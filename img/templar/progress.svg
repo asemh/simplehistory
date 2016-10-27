@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.22 63.18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c9c9c9;
+      }
+
+      .cls-2 {
+        font-size: 12px;
+        fill: #939393;
+        font-family: OpenSans-Semibold, Open Sans;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <title>progress</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Downfall">
+      <g>
+        <rect class="cls-1" width="92.22" height="63.18"/>
+        <text class="cls-2" transform="translate(7.64 35.04)">IN PROGRESS</text>
+      </g>
+    </g>
+  </g>
+</svg>
